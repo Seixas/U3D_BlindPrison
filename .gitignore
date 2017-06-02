@@ -1,0 +1,50 @@
+# Visual Studio 2015 user specific files
+.vs/
+*.VC.db
+*.VC.VC.opendb
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.ipa
+
+# Library files
+Library/*
+Build/*
+
+# Don't ignore icon files in Build
+!Build/**/*.ico
+
+
+# obj
+obj/*
+
+# Compiled source files for the engine to use
+Temp/*
+ProjectSettings/*
+backup_BT/*
